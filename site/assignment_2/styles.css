@@ -1,0 +1,81 @@
+body {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	color: #202020;
+	border: 30px;
+}
+
+@media (max-width: 767px) {
+ 	.col-sm-12 {
+ 		width: 100%;
+ 	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.col-md-6 {
+		width: 50%;
+	 	float: left;
+	 	margin: 0px;
+	 	border: 0px;
+	 	padding: 0px;
+	}
+
+	.col-md-12 {
+	 	width: 100%;
+	 	float: left;
+	}
+}
+
+@media (min-width: 992px) {
+	.col-lg-4 {
+		width: 33.33%;
+		float: left;
+	}
+}
+
+.menu-item {
+ 	border: solid #202020 2px;
+ 	margin: 15px;
+ 	background-color: #C0C0C0;
+}
+
+.menu-item-text {
+	margin: 15px;
+	text-align: left;
+	clear: right;
+	height: 100px;
+	overflow: hidden;
+}
+
+.menu-title {
+	float: right;
+	border: solid 2px #202020; 
+	margin: -2px;
+	color: #202020;
+	text-align: center;
+	padding: 5px 25px 5px 25px;
+	size: 1.5em;
+	font-weight: bold;
+}
+
+#menu-item-1 {
+	background-color: #FF6699;
+	color: #202020;
+}
+
+#menu-item-2 {
+	background-color: #B00000;
+	color: white;
+}
+
+#menu-item-3 {
+	background-color: #FFCC99;
+	color: #202020;
+}
